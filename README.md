@@ -15,3 +15,5 @@ Copyright (c) 2020, Robert Walker
  
 Project based on the 
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
+
+Modified 1042 25 JAN 2020
