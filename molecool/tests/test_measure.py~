@@ -4,6 +4,7 @@ test_measure.py
 Unit tests for measure module.
 """
 import numpy as np
+import pytest
 import molecool
 
 def test_calculate_distance():
@@ -18,6 +19,13 @@ def test_calculate_distance():
     
     assert calculated_distance == expected_distance
 
+def test_calculate_distance_typeerror():
+    
+    r1 = [0, 0, 0]
+    r2 = [1, 0, 0]
+    
+    calculate_distance = molecool.calculate_distance(r1, r2)
+
 def test_calculate_angle():
 
     rA = np.array([0, 0, -1]) 
@@ -26,6 +34,6 @@ def test_calculate_angle():
     
     expected_measure = 90.0
     
-    calcuated_measure = molecool.calculate_angle(rA, rB, rC, degree=True)
+    calcuated_measure = molecool.calculate_angle(rA, rB, rC, degrees=True)
     
     assert calcuated_measure == expected_measure
