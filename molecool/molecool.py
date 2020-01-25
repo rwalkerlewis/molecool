@@ -24,7 +24,7 @@ def open_pdb(f_loc):
     c = []
     sym = []
     for l in data:
-        if 'ATOM' in l[0:6] or 'HETATM' in l[0:6]:
+        if 'ATOM' in l[0:6] or  'HETATM' in l[0:6]:
             sym.append(l[76:79].strip())
             c2 = [float(x) for x in l[30:55].split()]
             c.append(c2)
