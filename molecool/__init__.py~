@@ -10,7 +10,7 @@ from .molecule import *
 from .visualize import *
 from .atom_data import *
 
-import molecool.IO
+import molecool.io
 
 # Handle versioneer
 from ._version import get_versions
