@@ -2,7 +2,7 @@ molecool
 ==============================
 [//]: # (Badges)
 [![Build Status](https://travis-ci.com/rwalkerlewis/molecool.svg?branch=master)](https://travis-ci.com/rwalkerlewis/molecool)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
+[![codecov](https://codecov.io/gh/rwalkerlewis/molecool/branch/master/graph/badge.svg)](https://codecov.io/gh/rwalkerlewis/molecool)
 
 meh (this serves as the description)
 
@@ -19,4 +19,3 @@ Project based on the
 This package requires the following:
 	- numpy
 	- matplotlib
-	- obspy
